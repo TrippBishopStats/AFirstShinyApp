@@ -8,11 +8,9 @@
 #
 
 library(shiny)
-library(shinythemes)
 
 # Define UI for application that draws a histogram
 fluidPage(
-    theme = shinytheme("cerulean"), # cerulean, flatly, darkly
     # Application title
     titlePanel("Old Faithful Geyser Data"),
 
